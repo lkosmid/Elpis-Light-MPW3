@@ -40,6 +40,7 @@ set ::env(FP_PIN_ORDER_CFG) $script_dir/pin_order.cfg
 set ::env(PL_TARGET_DENSITY) 0.4
 set ::env(FP_CORE_UTIL) "50"
 
+set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 40
 #set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 0
 
 
